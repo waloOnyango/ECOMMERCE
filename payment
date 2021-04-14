@@ -1,0 +1,154 @@
+{
+    "clientReferenceInformation": {
+        "code": "TC50171_3",
+        "transactionId": "",
+        "partner": {
+            "originalTransactionId": "",
+            "developerId": "",
+            "solutionId": "",
+            "thirdPartyCertificationNumber": ""
+        }
+    },
+    "processingInformation": {
+        "actionList": "",
+        "actionTokenTypes": "",
+        "capture": false,
+        "processorId": "",
+        "businessApplicationId": "",
+        "commerceIndicator": "",
+        "paymentSolution": "",
+        "reconciliationId": "",
+        "linkId": "",
+        "purchaseLevel": "",
+        "reportGroup": "",
+        "visaCheckoutId": "",
+        "industryDataType": "",
+        "authorizationOptions": {
+            "authType": "",
+            "verbalAuthCode": "",
+            "verbalAuthTransactionId": "",
+            "authIndicator": "",
+            "partialAuthIndicator": false,
+            "balanceInquiry": false,
+            "ignoreAvsResult": false,
+            "declineAvsFlags": "",
+            "ignoreCvResult": false,
+            "initiator": {
+                "type": "",
+                "credentialStoredOnFile": false,
+                "storedCredentialUsed": false,
+                "merchantInitiatedTransaction": {
+                    "reason": "",
+                    "previousTransactionId": "",
+                    "originalAuthorizedAmount": ""
+                }
+            },
+            "billPayment": false,
+            "billPaymentType": "",
+            "redemptionInquiry": false,
+            "transitTransactionType": "",
+            "aggregatedAuthIndicator": "",
+            "debtRecoveryIndicator": "",
+            "deferredAuthIndicator": false
+        },
+        "captureOptions": {
+            "captureSequenceNumber": null,
+            "totalCaptureCount": null,
+            "dateToCapture": ""
+        },
+        "recurringOptions": {
+            "loanPayment": false,
+            "firstRecurringPayment": false
+        },
+        "bankTransferOptions": {
+            "declineAvsFlags": "",
+            "secCode": "",
+            "terminalCity": "",
+            "terminalState": "",
+            "effectiveDate": "",
+            "partialPaymentId": "",
+            "customerMemo": "",
+            "paymentCategoryCode": "",
+            "settlementMethod": "",
+            "fraudScreeningLevel": "",
+            "customerPresent": ""
+        },
+        "purchaseOptions": {
+            "isElectronicBenefitsTransfer": false,
+            "type": ""
+        },
+        "electronicBenefitsTransfer": {
+            "category": "",
+            "voucherSerialNumber": ""
+        },
+        "japanPaymentOptions": {
+            "paymentMethod": "",
+            "installments": "",
+            "terminalId": "",
+            "firstBillingMonth": "",
+            "businessName": "",
+            "businessNameKatakana": "",
+            "jis2TrackData": "",
+            "businessNameAlphaNumeric": ""
+        },
+        "mobileRemotePaymentType": "",
+        "extendedCreditTotalCount": "",
+        "networkRoutingOrder": ""
+    },
+    "paymentInformation": {
+        "card": {
+            "number": "4111111111111111",
+            "expirationMonth": "12",
+            "expirationYear": "2031"
+        },
+        "bank": {
+            "account": {
+                "type": "",
+                "number": "",
+                "encoderId": "",
+                "checkNumber": "",
+                "checkImageReferenceNumber": ""
+            },
+            "routingNumber": ""
+        },
+        "paymentType": {
+            "name": "",
+            "subTypeName": "",
+            "method": {
+                "name": ""
+            }
+        }
+    },
+    "orderInformation": {
+        "amountDetails": {
+            "totalAmount": "102.21",
+            "currency": "USD",
+            "discountAmount": "",
+            "dutyAmount": "",
+            "taxAmount": "",
+            "taxAppliedAfterDiscount": "",
+            "amexAdditionalAmounts": [
+                {
+                    "code": "",
+                    "amount": ""
+                }
+            ],
+            "currencyConversion": {
+                "indicator": "",
+                "reconciliationId": "",
+                "id": ""
+            }
+        },
+        "billTo": {
+            "firstName": "John",
+            "lastName": "Doe",
+            "address1": "1 Market St",
+            "locality": "san francisco",
+            "administrativeArea": "CA",
+            "postalCode": "94105",
+            "country": "US",
+            "email": "test@cybs.com",
+            "phoneNumber": "4158880000"
+        }
+    }
+}
